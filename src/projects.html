@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projects - Space Pickles Rocketry</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        :root {
+            --primary-color: #2E8B57 !important; /* Sea Green */
+            --accent-color: #1B4D3E !important; /* Dark Green */
+        }
+        
+        .highlight, 
+        h2, h3, h4,
+        .nav-links a:not(.contact-button),
+        .footer-links a,
+        .resource-link,
+        .read-more,
+        .category-tag:hover,
+        .project-content h3,
+        .current-projects h3,
+        .past-projects h3,
+        .project-card h3,
+        .stat-value {
+            color: var(--primary-color) !important;
+        }
+
+        .cta-button, 
+        button[type="submit"],
+        .timeline-date {
+            background-color: var(--primary-color) !important;
+        }
+
+        .cta-button:hover, 
+        button[type="submit"]:hover {
+            background-color: var(--accent-color) !important;
+        }
+
+        .hero,
+        header,
+        footer {
+            background-color: var(--accent-color) !important;
+        }
+
+        .nav-links a.active::after {
+            background-color: var(--primary-color) !important;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav class="main-nav">
+            <div class="logo">
+                <a href="index.html">
+                    <span class="logo-text">Space Pickles Rocketry</span>
+                </a>
+            </div>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="team.html">Team</a></li>
+                <li><a href="projects.html" class="active">Projects</a></li>
+                <li><a href="resources.html">Resources</a></li>
+                <li><a href="blog.html">Blog</a></li>
+                <li><a href="sponsorships.html">Sponsorships</a></li>
+                <li><a href="contact.html" class="contact-button">Contact Us</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="page-header">
+            <h1>Our Projects</h1>
+        </section>
+
+        <section class="content-section">
+            <div class="container">
+                <div class="projects-intro">
+                    <h2>Current Projects</h2>
+                    <p>Explore our ongoing rocket development projects and learn about our past achievements.</p>
+                </div>
+
+                <div class="project-grid">
+                    <div class="project-card featured">
+                        <div class="project-image placeholder"></div>
+                        <div class="project-content">
+                            <h3>Pickle-1: Competition Rocket</h3>
+                            <p class="project-status">In Development</p>
+                            <p>Our flagship project for the 2025 American rocketry challenge. Features an entirely 3d printed rocket and targets an altitude of 790 ft.</p>
+                            <ul class="project-details">
+                                <li>Target Altitude: 790 ft</li>
+                                <li>Motor: Aerotech 24mm Motor - F32T-4</li>
+                                <li>Competition: 2025 American Rocketry Challenge</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="project-card">
+                        <div class="project-image placeholder"></div>
+                        <div class="project-content">
+                            <h3>Active Control System</h3>
+                            <p class="project-status">In Testing</p>
+                            <p>Development of an active control system for stabilization and guidance of the guided rocket.</p>
+                            <ul class="project-details">
+                                <li>Type: Pre-packed motor</li>
+                                <li>Status: Design and simulation testing</li>
+                                <li>Application: Flight stabilization</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="past-projects">
+                    <h2>Past Projects</h2>
+                    <div class="timeline">
+                        <p>No past projects as this is our first season competing as a team.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-content">
+            <div class="contact-info">
+                <h4>Space Pickles Rocketry</h4>
+                <p>American High School<br>Fremont, California</p>
+            </div>
+            <div class="footer-links">
+                <a href="accessibility.html">Accessibility</a>
+                <a href="contact.html">Contact Us</a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html> 
